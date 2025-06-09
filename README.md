@@ -1,7 +1,7 @@
 # Lambda Functions
 Details about all functions!!
 
-## deploymentfail-deleteASG.py
+## 1 - deploymentfail-deleteASG.py
 Delete ASG when Blue-green Pipeline failed,  <br/>
 
 - In lambda function goes --> Configuration --> Enviroment variable and add below enviroment variable,
@@ -14,10 +14,10 @@ Delete ASG when Blue-green Pipeline failed,  <br/>
 
 ![ eploymentfail_delete_asg ](.images/deploymentfail_delete_asg.png)
 
-## cloudfront-invalidation-pipeline.py
+## 2 - cloudfront-invalidation-pipeline.py
 Invalidate Cloudfront in AWS Code Pipeline,  <br/>
 
-## assets-s3-cloudfront-invalidation.py
+## 3 - assets-s3-cloudfront-invalidation.py
 This is for Assets S3 bucket when we put cludfront above S3 assets, This invalidate in cloudfront when new images push in bucket,  <br/>
 
 - In lambda function goes --> Configuration --> Enviroment variable and add below enviroment variable,
