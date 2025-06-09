@@ -23,6 +23,7 @@ Delete ASG when Blue-green Pipeline failed,  <br/>
 ``
 Python 3.12
 ``
+
 Invalidate Cloudfront in AWS Code Pipeline,  <br/>
 
 ## 3 - assets-s3-cloudfront-invalidation.py
